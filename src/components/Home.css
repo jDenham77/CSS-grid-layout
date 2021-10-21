@@ -1,0 +1,17 @@
+.exampleBtns > button:nth-child(odd) {
+	background-color: lightblue;
+}
+.exampleBtns > button {
+	background-color: lightcoral;
+}
+
+.exampleBtns {
+	display: grid;
+	gap: 20px;
+	padding: 40px;
+}
+
+.exampleBtns > button {
+	height: 3em;
+	font-size: 30px;
+}
